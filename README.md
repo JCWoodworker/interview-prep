@@ -2,9 +2,10 @@
 
 ## Directory Structure
 
-  interview-prep
-    ├── array-manipulation
-    └── string-manipulation
+  ```interview-prep
+      ├── array-manipulation
+      └── string-manipulation
+  ```
 
 ## JavaScript Built-in Methods Used
 
