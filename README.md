@@ -172,3 +172,90 @@
 
   * **Definition:** Returns the type of the operand.
   * **Explanation:** Returns a string indicating the data type.
+
+* `Math.max(...values)`:
+
+    ```javascript
+    Math.max(1, 5, 2); // Returns 5
+    Math.max(...[1, 5, 2]); // Returns 5
+    ```
+
+  * **Definition:** Returns the largest of zero or more numbers.
+  * **Explanation:** Returns the maximum value from the provided numbers or array.
+
+* `Math.min(...values)`:
+
+    ```javascript
+    Math.min(1, 5, 2); // Returns 1
+    Math.min(...[1, 5, 2]); // Returns 1
+    ```
+
+  * **Definition:** Returns the smallest of zero or more numbers.
+  * **Explanation:** Returns the minimum value from the provided numbers or array.
+
+* `Math.floor(x)`:
+
+    ```javascript
+    Math.floor(4.9); // Returns 4
+    ```
+
+  * **Definition:** Returns the largest integer less than or equal to a given number.
+  * **Explanation:** Rounds a number down to the nearest integer.
+
+* `Math.random()`:
+
+    ```javascript
+    Math.random(); // Returns a random number between 0 (inclusive) and 1 (exclusive)
+    ```
+
+  * **Definition:** Returns a pseudo-random number between 0 and 1.
+  * **Explanation:** Used to generate random numbers.
+
+* `.push(element)`:
+
+    ```javascript
+    let arr = [1, 2];
+    arr.push(3); // arr is now [1, 2, 3]
+    ```
+
+  * **Definition:** Adds one or more elements to the end of an array.
+  * **Explanation:** Modifies the original array and returns the new length.
+
+* `.pop()`:
+
+    ```javascript
+    let arr = [1, 2, 3];
+    let removed = arr.pop(); // removed is 3, arr is now [1, 2]
+    ```
+
+  * **Definition:** Removes the last element from an array.
+  * **Explanation:** Modifies the original array and returns the removed element.
+
+* `.shift()`:
+
+    ```javascript
+    let arr = [1, 2, 3];
+    let removed = arr.shift(); // removed is 1, arr is now [2, 3]
+    ```
+
+  * **Definition:** Removes the first element from an array.
+  * **Explanation:** Modifies the original array and returns the removed element.
+
+* `.substring(startIndex, endIndex)`:
+
+    ```javascript
+    "hello".substring(1, 4); // Returns "ell"
+    ```
+
+  * **Definition:** Returns the portion of a string between the start and end indexes.
+  * **Explanation:** Returns a new substring.
+
+* `Object.keys(obj)`:
+
+    ```javascript
+    Object.keys({a: 1, b: 2, c: 3}); // Returns ['a', 'b', 'c']
+    ```
+
+  * **Definition:** Returns an array of a given object's own enumerable property names.
+  * **Explanation:** Returns an array containing the keys of the object.
+* `
