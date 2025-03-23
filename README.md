@@ -108,70 +108,70 @@
 
 * `typeof(operand)`:
 
-* **Numbers:**
+  * **Numbers:**
 
-    ```javascript
-    typeof 42;          // Returns "number"
-    typeof 3.14;        // Returns "number"
-    typeof NaN;         // Returns "number" (Yes, NaN is a number type!)
-    typeof Infinity;    // Returns "number"
-    typeof -Infinity;   // Returns "number"
-    ```
+      ```javascript
+      typeof 42;          // Returns "number"
+      typeof 3.14;        // Returns "number"
+      typeof NaN;         // Returns "number" (Yes, NaN is a number type!)
+      typeof Infinity;    // Returns "number"
+      typeof -Infinity;   // Returns "number"
+      ```
 
-* **Strings:**
+  * **Strings:**
 
-    ```javascript
-    typeof "Hello, world!"; // Returns "string"
-    typeof '';             // Returns "string" (Empty string)
-    typeof `template literal`; // Returns "string"
-    ```
+      ```javascript
+      typeof "Hello, world!"; // Returns "string"
+      typeof '';             // Returns "string" (Empty string)
+      typeof `template literal`; // Returns "string"
+      ```
 
-* **Booleans:**
+  * **Booleans:**
 
-    ```javascript
-    typeof true;        // Returns "boolean"
-    typeof false;       // Returns "boolean"
-    ```
+      ```javascript
+      typeof true;        // Returns "boolean"
+      typeof false;       // Returns "boolean"
+      ```
 
-* **Undefined:**
+  * **Undefined:**
 
-    ```javascript
-    typeof undefined;   // Returns "undefined"
-    typeof variableThatDoesNotExist; //Returns "undefined"
-    ```
+      ```javascript
+      typeof undefined;   // Returns "undefined"
+      typeof variableThatDoesNotExist; //Returns "undefined"
+      ```
 
-* **Objects:**
+  * **Objects:**
 
-    ```javascript
-    typeof { key: 'value' }; // Returns "object"
-    typeof null;        // Returns "object" (This is a known quirk of JavaScript)
-    typeof [1, 2, 3];    // Returns "object" (Arrays are objects in JavaScript)
-    typeof new Date();  // Returns "object"
-    typeof /regex/;     // Returns "object" (Regular expressions are objects)
-    ```
+      ```javascript
+      typeof { key: 'value' }; // Returns "object"
+      typeof null;        // Returns "object" (This is a known quirk of JavaScript)
+      typeof [1, 2, 3];    // Returns "object" (Arrays are objects in JavaScript)
+      typeof new Date();  // Returns "object"
+      typeof /regex/;     // Returns "object" (Regular expressions are objects)
+      ```
 
-* **Functions:**
+  * **Functions:**
 
-    ```javascript
-    typeof function() {}; // Returns "function"
-    typeof Math.sin;     // Returns "function"
-    ```
+      ```javascript
+      typeof function() {}; // Returns "function"
+      typeof Math.sin;     // Returns "function"
+      ```
 
-* **Symbols (ES6):**
+  * **Symbols (ES6):**
 
-    ```javascript
-    typeof Symbol('description'); // Returns "symbol"
-    typeof Symbol.iterator;       // Returns "symbol"
-    ```
+      ```javascript
+      typeof Symbol('description'); // Returns "symbol"
+      typeof Symbol.iterator;       // Returns "symbol"
+      ```
 
-* **BigInt (ES11):**
+  * **BigInt (ES11):**
 
-    ```javascript
-    typeof 9007199254740991n; // Returns "bigint"
-    ```
+      ```javascript
+      typeof 9007199254740991n; // Returns "bigint"
+      ```
 
-  * **Definition:** Returns the type of the operand.
-  * **Explanation:** Returns a string indicating the data type.
+    * **Definition:** Returns the type of the operand.
+    * **Explanation:** Returns a string indicating the data type.
 
 * `Math.max(...values)`:
 
