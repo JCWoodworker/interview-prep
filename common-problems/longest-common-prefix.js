@@ -18,8 +18,13 @@
 // 0 <= strs[i].length <= 200
 // strs[i] consists of only lowercase English letters if it is non-empty.
 
+// NOTE THE USE OF .indexOf() and .substring() !!!
+// These are extremely useful in many problems !!!
+
 var longestCommonPrefix = function (strs) {
-	let prefix = strs[0]
+	let prefix = strs.reduce((shortest, current) => {
+		return current.length < shortest.length ? current : shortest
+	})
 
 	for (let i = 0; i < strs.length; i++) {
 		while (strs[i].indexOf(prefix) !== 0) {
@@ -29,5 +34,4 @@ var longestCommonPrefix = function (strs) {
 	return prefix
 }
 
-// NOTE THE USE OF .indexOf() and .substring() !!!
-// These are extremely useful in many problems !!!
+console.log(longestCommonPrefix(["flower", "flow", "flight"]))
