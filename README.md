@@ -1,4 +1,4 @@
-# The purpose of this is to list out functions that are essential to solving larger problems
+# The purpose of this is to list out functions that are essential to solving larger problems, and work on my leetcode skills
 
 ---
 
