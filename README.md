@@ -1,11 +1,16 @@
 # The purpose of this is to list out functions that are essential to solving larger problems
 
+---
+
 ## Directory Structure
 
   ```interview-prep
       ├── array-manipulation
+      ├── common-problems
       └── string-manipulation
   ```
+
+---
 
 ## JavaScript Built-in Methods Used
 
@@ -249,6 +254,17 @@
 
   * **Definition:** Returns the portion of a string between the start and end indexes.
   * **Explanation:** Returns a new substring.
+
+* `.indexOf(searchElement, fromIndex)`:
+
+    ```javascript
+    "hello".indexOf("l"); // Returns 2
+    [1, 2, 3].indexOf(2); // Returns 1
+    "hello".indexOf("l", 3); // Returns 3
+    ```
+
+  * **Definition:** Returns the first index at which a given element can be found in the array or string.
+  * **Explanation:** Returns -1 if the element is not found.
 
 * `Object.keys(obj)`:
 
